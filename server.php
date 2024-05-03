@@ -4,7 +4,7 @@ $message = $_GET['message'];
 $word = $_GET['word'];
 $messageLenght = strlen($message);
 $censoredMessage = str_replace($word,'***',$message,$count);
-$censoredMessageLenght = strlen($censoredMessage)
+$censoredMessageLenght = strlen($censoredMessage);
 
 ?>
 
