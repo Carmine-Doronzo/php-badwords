@@ -1,8 +1,9 @@
 <?php 
 
 $message = $_GET['message'];
+$word = $_GET['word'];
 $messageLenght = strlen($message);
-$censoredMessage = str_replace($message[3],'***',$message);
+$censoredMessage = str_replace($word,'***',$message,$count);
 $censoredMessageLenght = strlen($censoredMessage)
 
 ?>
@@ -11,3 +12,4 @@ $censoredMessageLenght = strlen($censoredMessage)
 <h2>Lunghezza: <?php echo $messageLenght ?> </h2>
 <h3>Messaggio censurato: <?php echo $censoredMessage ?></h3>
 <h4>lunghezza Messaggio censurato: <?php echo $censoredMessageLenght ?></h4>
+<h5>numero di sostituzioni: <?php echo $count ?></h5>

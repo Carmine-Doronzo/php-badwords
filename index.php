@@ -7,9 +7,15 @@
 </head>
 <body>
     <form action="./server.php">
-        <label for="message">Il tuo messaggio</label>
+        
+    <label for="message">Il tuo messaggio</label>
         <input type="text" name="message" placeholder="Scrivi qualcosa">
+        
+        <label for="word">parola da censurare</label>
+        <input type="text" name="word" placeholder="inserisci una parola">
+        
         <button>invia</button>
+    
     </form>
     
 </body>
