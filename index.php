@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>ciao</h1>
+    <form action="./server.php">
+        <label for="message">Il tuo messaggio</label>
+        <input type="text" name="message" placeholder="Scrivi qualcosa">
+        <button>invia</button>
+    </form>
+    
 </body>
 </html>
