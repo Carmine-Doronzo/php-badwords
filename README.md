@@ -1,0 +1,1 @@
+uno tra i primi esercizi in PHP plain in cui nella pagina index bisogna inserire una parola o una frase e la parola o pezzo di frase da censurare, nella pagina server tramuta le informazioni ricevute in: valore iniziale, valore iniziale con censura, lunghezza del valore iniziale e lunghezza del volere iniziale con censura.
